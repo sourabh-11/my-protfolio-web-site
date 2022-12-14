@@ -32,12 +32,18 @@
 }
 .InFoContainer{
     background-color: pink;
-    height: 20vw;
+    height: 65vh;
     width: 80vw;
-    margin: auto;
-    margin-top: 147px;
+    /* margin: auto; */
+    /* margin-top: 140px; */
+    margin: 23px 0px;
     display: flex;
+    justify-content: space-around;
         
+}
+.devPic img{
+    width: 424px;
+
 }
 
 
