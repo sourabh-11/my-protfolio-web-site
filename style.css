@@ -6,8 +6,8 @@
 
 }
 .sidebar{
-    background-color: red;
-    width: 10vw;
+    background-color: rgb(180, 179, 179);
+    width: 400px;
     font-family: 'Roboto Slab', serif;
     height: 100vh;
 }
@@ -22,28 +22,110 @@
      padding: 29px 0px;
 
 }
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+     padding: 29px 0px;
+
+}
 
 .main{
-    background-color: rgb(233, 233, 147);
+    /* background-color: rgb(233, 233, 147); */
     width: 90vw;
 }
 .container{
     display: flex;
 }
 .InFoContainer{
-    background-color: pink;
+    /* background-color: pink; */
     height: 65vh;
     width: 80vw;
-    /* margin: auto; */
+    margin: auto;
     /* margin-top: 140px; */
     margin: 23px 0px;
     display: flex;
     justify-content: space-around;
         
 }
-.devPic img{
-    width: 424px;
+.devInfo{
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
+   font-family: 'Roboto Slab', serif;
 
+}
+.Hello{
+    font-size: 45px;
+
+}
+.Name{
+    font-size: 30px;
+
+}
+.About{
+    font-size: 20px;
+
+}
+.Button{
+    margin-top: 20px;
+
+}
+.Button button{
+    background-color: rgb(112, 230, 230);
+    border-radius: 15px;
+    padding: 3px 5px;
+    /* font-family: 'Roboto Slab', serif */
+    font-size: 12px;
+    cursor: pointer;
+    
+}
+.Button button:hover{
+    background-color: white;
+    color: black;
+}
+.devPic img{
+    height: 65vh;
+
+}
+.ContactForm{
+        font-family: 'Roboto Slab', serif
+   
+}
+.ContactForm h1{
+   text-align: center;
+
+}
+.ContactForm form div{
+   padding: 30px;
+   font-size: 30px;
+   
+ 
+ }
+
+
+
+
+
+
+
+
+h1{
+    padding: 20px;
+}
+.btn{
+    background-color: rgb(112, 230, 230);
+    border-radius: 15px;
+    padding: 10px 25px;
+    margin-left: 25px;
+    /* font-family: 'Roboto Slab', serif */
+    font-size: 12px;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    background-color: white;
+    color: black;
 }
 
 
