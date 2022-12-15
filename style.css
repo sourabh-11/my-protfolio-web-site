@@ -71,6 +71,15 @@
     margin-top: 20px;
 
 }
+
+.footercontainer{
+
+  /* background-color: yellow; */
+  height: 20px;
+  padding: 30px;
+  margin: 100px 20px;
+
+}
 .Button button{
     background-color: rgb(112, 230, 230);
     border-radius: 15px;
@@ -106,18 +115,14 @@
 
 
 
-
-
-
-
 h1{
     padding: 20px;
 }
 .btn{
     background-color: rgb(112, 230, 230);
-    border-radius: 15px;
-    padding: 10px 25px;
-    margin-left: 25px;
+    border-radius: 10px;
+    padding: 10px px;
+    margin-left: 5px;
     /* font-family: 'Roboto Slab', serif */
     font-size: 12px;
     cursor: pointer;
@@ -127,8 +132,44 @@ h1{
     background-color: white;
     color: black;
 }
+.bolgitem{
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Roboto Slab', serif
+}
+.bolgitem h2{
 
-
+}
+.skill{
+    width: 100%;
+    height: 8px;
+    background-color: rgb(235, 134, 134);
+    border: 2px solid black;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+    
+}
+.t1{
+    width: 965px;
+}
+.t2{
+    width: 865px;
+}
+.t3{
+    width: 665px;
+}
+.t4{
+    width: 465px;
+}
+.t5{
+    width: 234px;
+}
+.t6{
+    width: 265px;
+   
+}
 
 
 
