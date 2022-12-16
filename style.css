@@ -3,6 +3,8 @@
     padding: 0;
     margin: 0;
     /* box-sizing: border-box; */
+    /* background-color: black;
+     color: white; */
 
 }
 .sidebar{
@@ -10,6 +12,10 @@
     width: 400px;
     font-family: 'Roboto Slab', serif;
     height: 100vh;
+
+
+    /* background-color: black;
+    color: white; */
 }
 .sidebar nav{
     padding: 40px;
@@ -21,12 +27,20 @@
     font-size: 20px;
      padding: 29px 0px;
 
+     
+     /* background-color: black;
+     color: white;  */
+
 }
 .sidebar nav li a{
     text-decoration: none;
     color: black;
     font-size: 20px;
      padding: 29px 0px;
+
+
+     /* background-color: black;
+     color: white; */
 
 }
 
